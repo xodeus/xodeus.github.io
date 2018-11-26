@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+
+<html lang="da">
+    <head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <!--
+        © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+        Version: 1.3.0
+    -->
+    <script>
+window.lsVersion = "1.3.0",
+window.oldVersion = [
+    
+        
+            "0.2.0","0.0.1","0.1.0","1.0.0","1.0.1","1.1.0","1.1.1","1.2.0"
+        
+    
+]
+</script>
+
+    <!-- ### DNS Prefetch ### -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
+
+
+<!-- comment -->
+
+
+    <link rel="dns-prefetch" href="//disqus.com">
+    <link rel="dns-prefetch" href="//krsgrd.disqus.com">
+
+
+
+
+
+
+<!-- analytics -->
+
+
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+
+
+
+
+
+
+    <!-- ### Preload ### -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+<!-- Title -->
+<title>Samkørsel | krsgrd.dk</title>
+
+<!-- favicon -->
+<!-- Favicons -->
+
+    <link rel="shortcut icon" type="image/ico" href="/imgages/favicon/favicon.ico">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon">
+
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/apple-touch-icon">
+
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-32x32.png">
+
+
+<!-- Android Chrome Color -->
+
+
+
+<meta name="format-detection" content="telephone=no">
+
+<!-- Description -->
+<meta name="description" content="Velkommen ombor...">
+
+<!-- Keywords -->
+<meta name="keywords" content="">
+
+<!-- Disable Fucking Bloody Baidu Tranformation -->
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!-- ### Import File ### -->
+    
+        <!-- spectre.css -->
+
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css">
+
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    a, a:visited {
+        color: #0070ff;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #0070ff;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style>
+
+<!-- style.css -->
+
+    <link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+
+
+    
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <!-- ### RSS ### -->
+    
+
+    <!-- ### WebApp ### -->
+    <meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="krsgrd.dk">
+<meta name="msapplication-starturl" content="http://krsgrd.dk">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="krsgrd.dk">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Manifest Import -->
+
+<!-- Open Search -->
+
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="Samkørsel | krsgrd.dk">
+<meta property="og:site_name" content="krsgrd.dk">
+
+<meta property="og:locale" content="da">
+
+<meta property="og:url" content="http://krsgrd.dk/gomore/">
+<meta property="og:image" content="http://krsgrd.dk/images/favicon/apple-touch-icon">
+
+<meta property="og:description" content="Velkommen ombor...">
+
+<meta name="twitter:card" content="summary">
+
+
+    <meta property="og:type" content="blog">
+
+
+
+
+
+    <!-- ### Analytics ### -->
+    
+    <!-- Google Analytics -->
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-1568787-14', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="http://krsgrd.dk/gomore/">
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+
+    <!-- ### Custom Head ### -->
+    
+
+
+</head>
+
+    <body>
+        
+
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">krsgrd.dk</a></h1>
+
+    <p class="text-center header-slogan">
+        
+            
+                Idefabrikkens showcase
+            
+        
+    </p>
+
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">Hjem</a>
+    
+    
+    
+        <a href="/search" class="navbar-link">Søg</a>
+    
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">Del</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=krsgrd.dk&url=http://krsgrd.dk&via=XoDeus" target="_blank" rel="noopener noreferrer nofollow">Del på Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://krsgrd.dk" target="_blank" rel="noopener noreferrer nofollow">Del på Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+        <li class="menu-item">
+            <a href="https://plus.google.com/share?url=http://krsgrd.dk" target="_blank" rel="noopener noreferrer nofollow">Del via Google+</a>
+        </li>
+        
+
+        <!-- Share LinkedIn -->
+        
+        <li class="menu-item">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://krsgrd.dk&title=Samkørsel" target="_blank" rel="noopener noreferrer nofollow">Del på LinkedIn</a>
+        </li>
+        
+
+        <!-- Share QQ -->
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=http://krsgrd.dk&text=Samkørsel" target="_blank" rel="noopener noreferrer nofollow">Del med Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAAAAAB0L9x7AAABiElEQVR42u3awYqFMAxAUf//p2f2Q5PcqNR0uG4ePLQeIaRJ2+tnwHWJECHiCMSVXH/vWT0T/YfGFTEWsQya4AXZoNHz4bgiRiNWgZUF4epF0T2rcUWcj1gF2Oqe6iNE/C9ENmnRwBZxDiKaaLKEVCWp12ZREdsRNMC6v69V2yK2IsqmFaKyye5xVy5iKyILpKiAIYmNNEkiZiJocEaDdxvmW8lKxHYEWRi72yTjjCliDIIukmaY6oOiIlnEfAQZLJqsSNGLAlPE54gnCYpMXilexDGIaoGsSm5V0hIxG4GL0qS47WzyijgDQZIT2YjNitzWLCpiBIIEZrZo0p3IRMxHkA3XKrlVm/athljE54hOE5Rt3D5qiEWMQ9Bilxa/WREkYi6CbsTRDRfSMIuYjege9syKV3qAUMR8RNXQkIV08t/tw+MiPkHQQ6GkuM0mMFzUiDgGQYpdvMkn4mhEtgFHF0keB6aIrQhSsJCF1M4BDxFzEXjxs1ngvFZti9iK+PISIULEaMQvwU95uXf73HgAAAAASUVORK5CYII=" alr="QRCode">
+        </li>
+        
+
+    </ul>
+</div>
+    
+    
+</nav>
+</header>
+
+            
+    <!-- ## Post ## -->
+    
+    
+
+
+<div class="post-container">
+    <div id="post-card" class="card">
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                <div class="card-header">
+                    
+    <h1 class="card-title h3 mb-2">Samkørsel</h1>
+
+<div class="post-header-info">
+    <p class="post-header-info-left text-gray">
+        <img class="author-thumb lazyload" data-src="/img/default_avatar.png" alt="XoDeus's Avatar">
+        <span>26. nov - 2018</span>
+        
+        
+            <!-- Busuanzi Post Views -->
+<span id="busuanzi_container_page_pv" hidden>
+    <span class="suka-devide-dot"></span>
+    <span></span>
+    <span id="busuanzi_value_page_pv"></span>
+    <span>Views</span>
+</span>
+        
+        
+    </p>
+    <div class="post-header-info-right">
+        
+            <div class="dropdown dropdown-right">
+<a class="dropdown-toggle" tabindex="0">Del dette indlæg</a>
+<ul class="menu share-menu">
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+    <li class="menu-item">
+        <a href="https://twitter.com/intent/tweet?text=Samkørsel&url=http://krsgrd.dk/gomore/&via=XoDeus" target="_blank" rel="noopener noreferrer nofollow">Del på Twitter</a>
+    </li>
+    
+
+    <!-- Share Facebook -->
+    
+    <li class="menu-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://krsgrd.dk/gomore/" target="_blank" rel="noopener noreferrer nofollow">Del på Facebook</a>
+    </li>
+    
+
+    <!-- Share Google+ -->
+    
+    <li class="menu-item">
+        <a href="https://plus.google.com/share?url=http://krsgrd.dk/gomore/" target="_blank" rel="noopener noreferrer nofollow">Del via Google+</a>
+    </li>
+    
+
+    <!-- Share LinkedIn -->
+    
+    <li class="menu-item">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://krsgrd.dk/gomore/&title=krsgrd.dk" target="_blank" rel="noopener noreferrer nofollow">Del på LinkedIn</a>
+    </li>
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+    <li class="menu-item">
+        <a href="https://t.me/share/url?url=http://krsgrd.dk/gomore/&text=krsgrd.dk" target="_blank" rel="noopener noreferrer nofollow">Del med Telegram</a>
+    </li>
+    
+
+    <!-- QRCode -->
+    
+    <li class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAAAAAB0L9x7AAABiElEQVR42u3awYqFMAxAUf//p2f2Q5PcqNR0uG4ePLQeIaRJ2+tnwHWJECHiCMSVXH/vWT0T/YfGFTEWsQya4AXZoNHz4bgiRiNWgZUF4epF0T2rcUWcj1gF2Oqe6iNE/C9ENmnRwBZxDiKaaLKEVCWp12ZREdsRNMC6v69V2yK2IsqmFaKyye5xVy5iKyILpKiAIYmNNEkiZiJocEaDdxvmW8lKxHYEWRi72yTjjCliDIIukmaY6oOiIlnEfAQZLJqsSNGLAlPE54gnCYpMXilexDGIaoGsSm5V0hIxG4GL0qS47WzyijgDQZIT2YjNitzWLCpiBIIEZrZo0p3IRMxHkA3XKrlVm/athljE54hOE5Rt3D5qiEWMQ9Bilxa/WREkYi6CbsTRDRfSMIuYjege9syKV3qAUMR8RNXQkIV08t/tw+MiPkHQQ6GkuM0mMFzUiDgGQYpdvMkn4mhEtgFHF0keB6aIrQhSsJCF1M4BDxFzEXjxs1ngvFZti9iK+PISIULEaMQvwU95uXf73HgAAAAASUVORK5CYII=" alt="QRCode">
+    </li>
+    
+
+</ul>
+</div>
+        
+    </div>
+</div>
+                </div>
+                <div class="card-body">
+                    
+                        
+                            <div id="post-toc">
+                                <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Velkommen-ombord"><span class="post-toc-number">1.</span> <span class="post-toc-text">Velkommen ombord</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Introduktion"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Introduktion</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Book-via-GoMore"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Book via GoMore</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Flexibilitet-onskes"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Flexibilitet ønskes</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Opsamling"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">Opsamling</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Afsaetning"><span class="post-toc-number">1.3.2.</span> <span class="post-toc-text">Afsætning</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Bestil-tur-med-Flexibilitet"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Bestil tur med Flexibilitet</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#No-Taxi-Taxi"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">No Taxi-Taxi</span></a></li></ol></li></ol>
+                            </div>
+                        
+                    
+                    <article id="post-content">
+                        <h1 id="Velkommen-ombord"><a href="#Velkommen-ombord" class="headerlink" title="Velkommen ombord"></a>Velkommen ombord</h1><h2 id="Introduktion"><a href="#Introduktion" class="headerlink" title="Introduktion"></a>Introduktion</h2><p>Du har på den ene eller anden måde fået et link til denne side. Derfor vil jeg gerne byde dig velkommen ombord på liftet. Der er 2 måder du kan komme med, enten ved at booke direkte på <a href="https://gomore.dk/profiles/54626" target="_blank" rel="noopener">GoMore.dk</a> eller ved at booke udnom.</p>
+<h2 id="Book-via-GoMore"><a href="#Book-via-GoMore" class="headerlink" title="Book via GoMore"></a>Book via GoMore</h2><p>Den pris du ser der er den du skal betale for at komme fra A til B; typisk <a href="https://goo.gl/maps/fyLegfkhTGQ2" target="_blank" rel="noopener">UNO-X (Søren Frichs Vej)</a> eller <a href="https://goo.gl/maps/C6fjKx93buA2" target="_blank" rel="noopener">Odder St.</a> til <a href="https://goo.gl/maps/G6npJJtWVKM2" target="_blank" rel="noopener">OK Taulov (Europavej)</a>. For den pris er der INGEN flexibilitet, ingen opsamling andre steder og ingen afsætning andre steder. Du booker, betaler og kører med. Grunden til det er <a href="/images/gomoregebyr.png">GoMores nye prisstruktur, hvor mindst 15 kr ryger direkte ned i GoMores kasse</a>. Ja, mindst 15 kr/sæde, det er 75, hver gang jeg udlejer 5 sæder.</p>
+<h2 id="Flexibilitet-onskes"><a href="#Flexibilitet-onskes" class="headerlink" title="Flexibilitet ønskes"></a>Flexibilitet ønskes</h2><p>Det kan også lade sig gøre. Sådan 5-10 minutter fra ruten i hver retning. Det kræver blot at du IKKE reserverer sædet via GoMore, men kontakter mig, som du har gjort og betaler med MobilePay, PayPal, BTC helst på forhånd. </p>
+<h3 id="Opsamling"><a href="#Opsamling" class="headerlink" title="Opsamling"></a>Opsamling</h3><p><iframe src="https://www.google.com/maps/d/embed?mid=1cZ6YVy5V5BvHSKYEAHlYD-ZGu9w6ESq8" width="640" height="480"></iframe><br>Typisk vil jeg så kunne samle op ved Århus H, Harald Jensens Plads eller Statsbiblioteket.</p>
+<h3 id="Afsaetning"><a href="#Afsaetning" class="headerlink" title="Afsætning"></a>Afsætning</h3><p><iframe src="https://www.google.com/maps/d/embed?mid=16BaPtNICFmDGZ6Qx-xvM0aYwoSvnMyTL" width="640" height="480"></iframe><br>Cirkle K - Vejle (Horsensvej eller Fredericiavej), Vejle Syd afkørsel, OK Lyshøj (Kolding) samt OK Snoghøj.</p>
+<h2 id="Bestil-tur-med-Flexibilitet"><a href="#Bestil-tur-med-Flexibilitet" class="headerlink" title="Bestil tur med Flexibilitet"></a>Bestil tur med Flexibilitet</h2><p>Skriv direkte til mig, har du fået linket til siden her, så har du også mulihged for at kontakte mig via GoMore besked system, eller via besked på den ene eller anden måde. </p>
+<h2 id="No-Taxi-Taxi"><a href="#No-Taxi-Taxi" class="headerlink" title="No Taxi-Taxi"></a>No Taxi-Taxi</h2><p>Det her er stadig samkørsel. Det er INGEN taxa ordning. Jeg kører til faste steder, hvor det ikke vil tage mig meget mere tid at komme til og fra (5-10 min i hver ende). Ønsker du kørsel fra dør til dør, er det normalt ikke mig, du skal have fat i.</p>
+<p><img src="/images/pay.png" alt="Betalingsmetoder"></p>
+
+                    </article>
+                    
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">Denne artikel er senest opdateret <span id="date-expire-num"></span> dage siden, derfor kan informationerne beskrevet i denne artikel være ændret.</blockquote>
+    <script>
+        var dateUpdate = Date.parse("2018-11-26");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    </script>
+
+
+<p class="post-footer-info mb-0 pt-0">Offentliggjort den&nbsp;<time datetime="2018-11-26T10:46:26.000Z" itemprop="datePublished">26. nov - 2018</time>
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+
+</p>
+
+                </div>
+                
+<div class="post-nav px-2 bg-gray">
+<ul class="pagination">
+    <!-- Prev Nav -->
+    
+
+    <!-- Next Nav -->
+    
+</ul>
+</div>
+
+                
+                    <!-- # Comment # -->
+                    
+                        <div class="card-footer post-comment">
+                            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = 'http://krsgrd.dk/gomore/index.html'; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://krsgrd.dk/gomore/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script id="disqus-thread-script">
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document;
+        var s = d.createElement('script');
+        s.src = '//krsgrd.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span data-year=""></span>
+        <a class="footer-copyright-a" href="http://krsgrd.dk">krsgrd.dk</a>
+    </p>
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+            
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+        
+        
+        Powered by&nbsp;<!--
+         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
+         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="noopener">Suka</a>
+    </p>
+</footer>
+
+        
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+
+
+
+    /* Copyright */
+    var copyrightNow = new Date().getFullYear();
+    var copyrightContent = document.querySelector('span[data-year]')
+    
+        copyrightSince = 2008;
+        if (copyrightSince === copyrightNow) {
+            copyrightContent.textContent = copyrightNow
+        } else {
+            copyrightContent.textContent = copyrightSince + ' - ' + copyrightNow
+        }
+    
+
+
+
+/* Cnosole Log */
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.0 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+</script>
+
+<!-- vanilla-lazyload -->
+
+    <script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+
+
+
+    <!-- Busuanzi -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+
+<!-- Offset -->
+
+
+
+
+
+
+
+<!-- gallery.js -->
+
+
+<!-- Comment -->
+
+    
+
+
+<!-- ### Custom Footer ### -->
+
+
+    </body>
+
+</html>
